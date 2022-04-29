@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Oew+CdUp5fN0bjFI1cYbi7yeXUGeMYsbEuI0ooLzXpqmr6vEYLFt3vM5dCOjBrGMtoHTDNIxlNpvVOAcYSg64w==",
+  "success": true,
+  "projectFilePath": "D:\\dotnet\\InventoryManagement\\InventoryManagement\\OOPS\\OOPS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mohan sahu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
