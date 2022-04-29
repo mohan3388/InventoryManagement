@@ -12,7 +12,7 @@ class Program
         InventoryData invent = new InventoryData();
         bool check = true;
         Console.WriteLine("inventory program");
-        Console.WriteLine("press 1 to diplay");
+        Console.WriteLine("1.press 1 to diplay\n 2.press 2 to Edit  data");
         while (true)
         {
             int option = Convert.ToInt32(Console.ReadLine());
