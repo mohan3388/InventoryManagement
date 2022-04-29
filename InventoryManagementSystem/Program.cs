@@ -1,26 +1,29 @@
 ﻿using System;
-namespace InventoryManagementSystem;
+using InventoryManagementSystem.InventoryManagement;
+using InventoryManagementSystem.StockAccountManagement;
 
-class Program
+public class Program
 {
-    static void Main(String[] args)
+    public static void Main(String[]args)
     {
-        const string INVENTORY_FILE_PATH = @"D:\dotnet\inventorymanage\Inventory\invent.json";
-        InventoryManagement invent = new InventoryManagement();
+        Console.WriteLine("welcome to the Program");
+        const string INVENTORY_FILE_PATH = @"D:\dotnet\InventoryManagementSystem\InventoryManagementSystem\InventoryManagement\Inventory.json";
+        InventoryData InventoryData = new InventoryData();
+        Console.WriteLine("1.enter 1 to Display \n 2.enter 2 to Display Stock");
         bool check = true;
-        Console.WriteLine("inventory program");
-        Console.WriteLine("press 1 to diplay");
-        while (true)
+        while(check)
         {
+            Console.WriteLine("enter the option");
             int option = Convert.ToInt32(Console.ReadLine());
-            switch (option)
+            switch(option)
             {
                 case 1:
-                    invent.DisplayInventory(INVENTORY_FILE_PATH);
+                    InventoryData.DisplayInventoryData(INVENTORY_FILE_PATH);
                     break;
-
-                case 0:
-                    check = false;
+                case 2:
+                    const string File_Path = @"D:\dotnet\InventoryManagementSystem\InventoryManagementSystem\StockAccountManagement\StockAccount.json";
+                    StockPortfolio port = new StockPortfolio();
+                    port.DisplayStockDetails(File_Path);
                     break;
             }
         }

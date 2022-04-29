@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnet\\InventoryManagement\\InventoryManagement\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+      "projectUniqueName": "D:\\dotnet\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
       "projectName": "InventoryManagementSystem",
-      "projectPath": "D:\\dotnet\\InventoryManagement\\InventoryManagement\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+      "projectPath": "D:\\dotnet\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
       "packagesPath": "C:\\Users\\Mohan sahu\\.nuget\\packages\\",
-      "outputPath": "D:\\dotnet\\InventoryManagement\\InventoryManagement\\InventoryManagementSystem\\obj\\",
+      "outputPath": "D:\\dotnet\\InventoryManagementSystem\\InventoryManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mohan sahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
